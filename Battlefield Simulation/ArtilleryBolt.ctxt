@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ArtilleryBolt
+comment0.text=\r\n\ ArtilleryBolt\ is\ a\ Projectile\ fired\r\n\ by\ Artilleries.\ \r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=team\ shooter\ boltSpeed\ boltDirection\ boltDamage
+comment1.target=ArtilleryBolt(boolean,\ Building,\ int,\ int,\ int)
+comment1.text=\r\n\ Create\ an\ ArtilleryBolt.\r\n\ \r\n\ @param\ team\ The\ team\ the\ artillery\ that\ shot\ this\ bolt\ belongs\ to.\ True\ if\ red,\ false\ if\ blue.\r\n\ @param\ shooter\ The\ artillery\ that\ shot\ this\ bolt.\r\n\ @param\ boltSpeed\ Speed\ at\ which\ the\ bolt\ travels\ to\ its\ target.\r\n\ @param\ boltDamage\ Damage\ the\ bolt\ deals\ when\ it\ hits\ a\ target.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ ArtilleryBolt\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

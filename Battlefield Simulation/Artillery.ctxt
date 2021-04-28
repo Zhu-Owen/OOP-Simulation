@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Artillery
+comment0.text=\r\n\ Artilleries\ are\ Buildings\ (Greenfoot\ Actors)\ that\ only\ target\r\n\ and\ shoot\ the\ nearest\ enemy\ building.\ They\ will\ ignore\ all\ troops\ and\ do\ not\r\n\ shoot\ allied\ buildings.\ Artilleries\ shoot\ by\ turning\ towards\ their\r\n\ target\ and\ rapidly\ firing\ projectiles\ at\ them.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=isRed
+comment1.target=Artillery(boolean)
+comment1.text=\r\n\ Creates\ an\ Artillery\ with\ the\ specified\ team\ colour\ (red\ or\ blue).\r\n\ \r\n\ @param\ isRed\ True\ if\ this\ Artillery\ belongs\ to\ the\ red\ team,\ false\ if\ it\ belongs\ to\ the\ blue\ team.\r\n
+comment2.params=isRed\ width\ height\ maxHP\ fireRate\ damage
+comment2.target=Artillery(boolean,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ Creates\ an\ Artillery\ with\ the\ specified\ team\ colour\ (red\ or\ blue),\ dimensions,\ fire\ rate,\ and\ damage.\r\n\ \r\n\ @param\ isRed\ True\ if\ this\ Artillery\ belongs\ to\ the\ red\ team,\ false\ if\ it\ belongs\ to\ the\ blue\ team.\r\n\ @param\ width\ Width\ of\ this\ Artillery.\r\n\ @param\ height\ Height\ of\ this\ Artillery.\r\n\ @param\ maxHP\ Maximum\ HP\ of\ this\ Artillery.\r\n\ @param\ fireRate\ Firing\ rate/delay\ of\ this\ Artillery.\ Lower\ numbers\ equal\ faster\ rates\ of\ fire\ (shorter\ delay\ between\ shots).\r\n\ @param\ damage\ Damage\ each\ projectile\ shot\ by\ the\ Artillery\ will\ deal\ to\ a\ target.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Artillery\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ attack()
+comment4.text=\r\n\ Attack\ the\ targetted\ building\ by\ shooting\ an\ ArtilleryBolt\ at\ it.\r\n
+comment5.params=
+comment5.target=void\ target()
+comment5.text=\r\n\ Target\ the\ nearest\ enemy\ building.\r\n
+comment6.params=other
+comment6.target=double\ getDistance(Building)
+comment6.text=\r\n\ Utility\ function\ to\ get\ the\ distance\ a\ building\ is\ away\r\n\ from\ the\ artillery.\r\n\ \r\n\ @param\ other\ The\ building\ to\ get\ distance\ from.\r\n\ @return\ double\ The\ distance\ to\ the\ other\ building.\r\n
+numComments=7

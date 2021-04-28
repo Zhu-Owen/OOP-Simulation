@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HealBullet
+comment0.text=\r\n\ HealBullets\ are\ projectiles\r\n\ that\ heal\ troops\ they\ hit.\r\n\ \r\n\ @author\ Howard\ Yang\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=troop\ team\ bulletSpeed\ bulletDirection\ healAmount
+comment1.target=HealBullet(Troops,\ boolean,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ checkCollision()
+comment3.params=
+comment3.target=void\ act()
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TroopSpawner
+comment0.text=\r\n\ TroopSpawners\ are\ Buildings\ (Greenfoot\ Actors)\ that\ spawn\r\n\ troops\ to\ march\ down\ the\ battle\ field\ to\ try\ to\ win\ the\ battle.\r\n\ They\ randomly\ spawn\ a\ type\ of\ troop\ that\ marches\ down\ to\ the\ opposite\r\n\ end\ of\ the\ battle\ field.\ TroopSpawners\ will\ only\ spawn\ one\ troop\r\n\ at\ a\ time,\ and\ can\ only\ spawn\ them\ when\ they\ have\ accumulated\r\n\ enough\ charge.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=isRed
+comment1.target=TroopSpawner(boolean)
+comment1.text=\r\n\ Create\ a\ Troop\ Spawner\ building\ for\ the\ specified\ team.\r\n\ \r\n\ @param\ isRed\ True\ if\ red\ team,\ false\ if\ blue\ team.\r\n
+comment2.params=isRed\ width\ height\ maxHP\ maxCharge\ delay
+comment2.target=TroopSpawner(boolean,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ Create\ a\ Troop\ Spawner\ building\ for\ the\ specified\ team\ with\ specified\ dimensions,\ HP,\ charge,\ and\ delay.\r\n\ \r\n\ @param\ isRed\ True\ if\ this\ building\ belongs\ to\ the\ red\ team,\ false\ if\ blue\ team.\r\n\ @param\ width\ Width\ of\ the\ building.\r\n\ @param\ height\ Height\ of\ the\ building.\r\n\ @param\ maxHP\ Maximum\ HP\ this\ building\ has.\r\n\ @param\ maxCharge\ Amount\ of\ charge\ the\ building\ must\ accumulate\ to\ spawn\ a\ new\ troop.\r\n\ @param\ delay\ Rate\ at\ which\ charge\ is\ acquired.\ Larger\ numbers\ mean\ slower\ charge\ acquisition.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ TroopSpawner\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ spawnTroop()
+comment4.text=\r\n\ Spawn\ a\ random\ troop.\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BackBtn
+comment0.text=\r\n\ BackBtn\ is\ a\ Button\ (Greenfoot\ Actor)\ that\r\n\ returns\ to\ the\ previous\ world\ when\ clicked.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=previousWorld
+comment1.target=BackBtn(greenfoot.World)
+comment1.text=\r\n\ Create\ a\ BackBtn\ that\ returns\ the\ user\ to\ a\ specified\ world.\r\n\ \r\n\ @param\ previousWorld\ The\ world\ to\ return\ the\ user\ to\ when\ this\ button\ is\ clicked.\r\n
+comment2.params=
+comment2.target=void\ onClick()
+comment2.text=\r\n\ Behaviour\ when\ clicked.\r\n
+numComments=3

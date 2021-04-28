@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Projectiles
+comment0.text=\r\n\ Parent\ class\ for\ all\ the\ objects\ shot\ by\ troops/buildings\ in\ the\ simulation\r\n\ \r\n\ @author\ Howard\ Yang\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ checkCollision()
+comment1.text=\r\n\ Check\ if\ the\ projectile\ collides\ with\ any\ buildings/troops\r\n\ or\ moves\ off\ the\ world.\r\n
+numComments=2

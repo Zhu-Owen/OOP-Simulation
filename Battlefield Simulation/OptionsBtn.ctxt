@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=OptionsBtn
+comment0.text=\r\n\ OptionsBtn\ is\ a\ button\ than\ when\ clicked\ takes\r\n\ the\ user\ to\ the\ options\ selection\ screen\ for\ the\r\n\ simulation.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 28,\ 2020\r\n
+comment1.params=
+comment1.target=OptionsBtn()
+comment1.text=\r\n\ Create\ an\ OptionsBtn\r\n
+comment2.params=
+comment2.target=void\ onClick()
+comment2.text=\r\n\ Behaviour\ when\ clicked\r\n
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Battleground
+comment0.text=\r\n\ The\ main\ world\ for\ the\ simulation.\ In\ this\ simulation,\ two\ teams,\r\n\ red\ and\ blue,\ fight\ each\ other\ until\ one\ comes\ out\ victorious.\ Each\r\n\ team\ starts\ with\ one\ Hub,\ two\ TroopSpawners,\ and\ two\ DefenseTowers\ and\r\n\ begin\ spawning\ troops\ to\ march\ down\ to\ attack\ the\ enemy\ buildings/troops.\r\n\ A\ team\ wins\ when\ they\ manage\ to\ destroy\ the\ enemy\ Hub.\r\n\ \r\n\ \r\n\ @author\ Daniel\ Wei,\ Owen\ Zhu,\ Stanley\ Wang,\ Howard\ Yang,\ Roy\ Sun\r\n\ @version\ May\ 14,\ 2020\r\n
+comment1.params=
+comment1.target=Battleground()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

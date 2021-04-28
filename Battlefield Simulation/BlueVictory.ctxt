@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BlueVictory
+comment0.text=\r\n\ Screen\ for\ when\ the\ Red\ Hub\ is\ destroyed,\ and\ the\r\n\ blue\ team\ has\ won.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ May\ 12,\ 2020\r\n
+comment1.params=
+comment1.target=BlueVictory()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

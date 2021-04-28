@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Textbox
+comment0.text=\r\n\ Textboxes\ are\ used\ in\ the\ Options\ World\ to\ allow\r\n\ the\ user\ to\ input\ any\ changes\ to\ simulation's\ variables.\r\n\ \r\n\ @author\ Owen\ Zhu\r\n\ @version\ May\ 13,\ 2020\r\n
+comment1.params=
+comment1.target=Textbox()
+comment1.text=\r\n\ Create\ a\ Textbox\r\n
+comment2.params=
+comment2.target=void\ updateImage()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=java.lang.String\ transferValue()
+comment4.text=\r\n\ Get\ the\ string\ value\ of\ the\ textbox's\ contents\r\n\ \r\n\ @return\ String\ The\ text\ inside\ the\ textbox.\r\n
+numComments=5

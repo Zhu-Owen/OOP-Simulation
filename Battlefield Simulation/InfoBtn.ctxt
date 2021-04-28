@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=InfoBtn
+comment0.text=\r\n\ InfoBtn\ is\ a\ button\ that\ takes\ the\ user\ to\ the\r\n\ Information\ display\ world.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 28,\ 2020\r\n
+comment1.params=
+comment1.target=InfoBtn()
+comment1.text=\r\n\ Create\ an\ InfoBtn\r\n
+comment2.params=
+comment2.target=void\ onClick()
+comment2.text=\r\n\ Behaviour\ when\ clicked\r\n
+numComments=3

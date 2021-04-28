@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Soundtrack2
+comment0.text=\r\n\ Soundtrack2\ is\ a\ simple\ Button\ that\ allows\r\n\ the\ user\ to\ select\ and\ listen\ to\ the\ second\r\n\ of\ three\ soundtracks\ in\ the\ battle\ simulation.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=
+comment1.target=Soundtrack2()
+comment1.text=\r\n\ Create\ a\ Soundtrack2\ button.\r\n
+comment2.params=
+comment2.target=void\ onClick()
+comment2.text=\r\n\ Behaviour\ when\ clicked.\r\n
+numComments=3

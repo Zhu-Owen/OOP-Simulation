@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MusicSelect
+comment0.text=\r\n\ MusicSelect\ is\ the\ World\ that\ the\ user\ is\ sent\ to\r\n\ when\ they\ choose\ to\ start\ the\ simulation.\ From\ here\r\n\ they\ can\ choose\ one\ of\ three\ soundtracks\ to\ play\r\n\ during\ the\ simulation,\ or\ go\ back\ to\ the\ main\ menu.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=
+comment1.target=MusicSelect()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MusicSelect.\r\n\ \r\n
+numComments=2

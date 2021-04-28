@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MainMenu
+comment0.text=\r\n\ MainMenu\ is\ the\ World\ that\ the\ user\ will\ see\ when\r\n\ they\ first\ load\ into\ the\ simulation.\ From\ there\ they\ can\r\n\ start\ the\ simulation\ or\ change\ the\ simulation\ parameters.\r\n\ \r\n\ @author\ Daniel\ Wei\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=
+comment1.target=MainMenu()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MainMenu.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ started()
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TroopHealthBar
+comment0.text=\r\n\ TroopHealthBar\ is\ a\ Greenfoot\ actor\ created\ based\ off\ of\ OZDWStatBar.\ It\ is\ a\ variant\ of\ OZDWStatBar\r\n\ that\ does\ not\ have\ the\ circular\ ability\ bar.\ It\ is\ a\ rectangular\ bar\ that\ is\ intended\ to\ be\ used\ as\ an\ HP/Shield\ bar,\ but\r\n\ it\ can\ be\ used\ for\ other\ applicable\ uses.\ \r\n\ <p>\r\n\ The\ purpose\ of\ this\ class\ is\ to\ provide\ a\ well\ integrated\ statistical\ bar\ that\ can\ help\r\n\ provide\ visuals\ for\ health\ and\ any\ type\ of\ numerical\ bar\ that\ is\ required.\ This\r\n\ can\ provide\ a\ programmer\ easy\ access\ to\ a\ stats\ bar\ that\ is\ typically\ used\ in\ a\ RPG\ game.\r\n\ <p>\r\n\ This\ class\ contains\ accessor\ (getter)\ and\ setter\ (update)\ methods.\r\n\ \r\n\ @author\ Daniel\ Wei\ &\ Owen\ Zhu\r\n\ @version\ April\ 23,\ 2020\r\n
+comment1.params=
+comment1.target=TroopHealthBar()
+comment1.text=\r\n\ Creates\ a\ generic\ TroopHealthBar\ with\ default\ dimensions\ and\ values.\r\n
+comment2.params=width\ height\ borderWidth\ hpVal\ maxHpVal\ target\ x\ y
+comment2.target=TroopHealthBar(int,\ int,\ int,\ int,\ int,\ Troops,\ int,\ int)
+comment2.text=\r\n\ Creates\ an\ TroopHealthBar\ of\ the\ dimensions\ specified\ and\ with\ the\ values\ specified.\ All\ values\ must\ not\ be\ negative.\r\n\ \r\n\ @param\ width\ Width\ of\ the\ bar.\r\n\ @param\ height\ Height\ of\ the\ bar.\r\n\ @param\ borderWidth\ Width\ of\ the\ border\ surrounding\ the\ bar.\r\n\ @param\ hpVal\ Initial/starting\ value\ for\ the\ bar.\r\n\ @param\ maxHpVal\ Maximum\ possible\ value\ for\ the\ bar.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ TroopHealthBar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=newVal
+comment4.target=void\ update(int)
+comment4.text=\r\n\ Updates\ the\ TroopHealthBar's\ current\ value\ with\ a\ new\ value.\ Also\ updates\ the\ appearance\ of\ the\ TroopHealthBar\ accordingly.\r\n\ \r\n\ @param\ newVal\ New\ value\ to\ update\ the\ TroopHealthBar\ with.\r\n
+comment5.params=newVal\ newMax
+comment5.target=void\ update(int,\ int)
+comment5.text=\r\n\ Updates\ the\ TroopHealthBar's\ current\ value\ and\ current\ maximum\ value\ with\ new\ values.\ Also\ updates\ the\ appearance\ of\ the\ TroopHealthBar\ accordingly.\r\n\ \r\n\ @param\ newVal\ New\ value\ to\ update\ the\ TroopHealthBar\ with.\r\n\ @param\ newMax\ New\ maximum\ value\ to\ update\ the\ TroopHealthBar\ with.\r\n
+comment6.params=
+comment6.target=int\ getMaxHpValue()
+comment6.text=\r\n\ Gets\ the\ maximum\ hp\ value\ for\ this\ stat\ bar.\r\n\ \r\n\ @return\ int\ Maximum\ HP\ value\ (maxHpVal).\r\n
+numComments=7

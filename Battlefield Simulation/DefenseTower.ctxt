@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DefenseTower
+comment0.text=\r\n\ DefenseTowers\ are\ defensive\ buildings\ with\ limited\ sight\ ranges\r\n\ that\ target\ troops.\ They\ deal\ massive\ damage.\r\n\ \r\n\ @author\ Owen\ Zhu\r\n\ @version\ May\ 14,\ 2020\r\n
+comment1.params=isRed\ width\ height\ maxHP\ maxCharge\ delay
+comment1.target=DefenseTower(boolean,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Create\ a\ Troop\ Spawner\ building.\r\n\ \r\n\ @param\ isRed\ True\ if\ this\ building\ belongs\ to\ the\ red\ team,\ false\ if\ blue\ team.\r\n\ @param\ width\ Width\ of\ the\ building.\r\n\ @param\ height\ Height\ of\ the\ building.\r\n\ @param\ maxHP\ Maximum\ HP\ this\ building\ has.\r\n\ @param\ maxCharge\ Amount\ of\ charge\ the\ building\ must\ accumulate\ to\ spawn\ a\ new\ troop.\r\n\ @param\ delay\ Rate\ at\ which\ charge\ is\ acquired.\ Larger\ numbers\ mean\ slower\ charge\ acquisition.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ TroopSpawner\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ target()
+comment3.text=\r\n\ Target\ an\ enemy\ troop.\r\n
+comment4.params=
+comment4.target=void\ shoot()
+comment4.text=\r\n\ Shoot\ the\ targetted\ enemy\ with\ a\ Laser.\r\n
+numComments=5

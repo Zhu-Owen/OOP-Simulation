@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Building
+comment0.text=\r\n\ Buildings\ are\ Greenfoot\ Actors\ that\ remain\ stationary\r\n\ on\ the\ battlefield.\ They\ have\ different\ uses,\ such\ as\ training\ troops,\r\n\ attacking\ other\ buildings,\ defending\ their\ territory,\ or\ building\r\n\ more\ buildings.\ Each\ building\ has\ its\ own\ health.\ When\ its\ health\ reaches\ zero,\r\n\ the\ building\ will\ explode\ and\ be\ destroyed.\r\n\ \r\n\ @author\ Daniel\ Wei\ &\ Owen\ Zhu\r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=above
+comment1.target=void\ summonStatBar(boolean)
+comment1.text=\r\n\ Put\ the\ building's\ stat\ bar\ either\ above\ or\ below\ the\ building\r\n\ \r\n\ @param\ above\ True\ if\ above\ building,\ false\ if\ below\r\n
+comment2.params=damage
+comment2.target=void\ takeDamage(int)
+comment2.text=\r\n\ Make\ the\ building\ take\ some\ amount\ of\ damage.\r\n\ \r\n\ @param\ damage\ Amount\ of\ damage\ dealt\r\n
+comment3.params=
+comment3.target=boolean\ getTeam()
+comment3.text=\r\n\ Get\ the\ team\ that\ this\ building\ belongs\ to.\r\n\ \r\n\ @return\ boolean\ True\ if\ red\ team,\ false\ if\ blue\ team\r\n
+comment4.params=
+comment4.target=void\ checkDestroyed()
+comment4.text=\r\n\ Check\ if\ this\ building\ has\ been\ destroyed.\r\n
+comment5.params=
+comment5.target=void\ doExplosion()
+comment5.text=\r\n\ Handle\ animating\ the\ explosion\ and\ object\ removal\r\n
+comment6.params=
+comment6.target=boolean\ isExploding()
+comment6.text=\r\n\ Get\ whether\ or\ not\ the\ building\ is\ in\ a\ state\ of\ exploding.\r\n\ \r\n\ @return\ boolean\ True\ if\ it\ is\ exploding,\ false\ otherwise.\r\n
+numComments=7

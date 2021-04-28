@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Ninja
+comment0.text=\r\n\ Ninja\ is\ a\ troop\ that\ has\ low\ health,\ high\ damage,\ very\ high\ speed\r\n\ \r\n\ It\ has\ the\ special\ ability\ to\ turn\ invulnerable\ when\ not\ attacking\r\n\ \r\n\ @author\ Stanley\ Wang\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=isRed
+comment1.target=Ninja(boolean)
+comment2.params=isRed\ hp\ speed\ damage\ sight
+comment2.target=Ninja(boolean,\ int,\ int,\ int,\ int)
+comment3.params=isRed\ hp\ maxHp\ speed\ damage\ sight
+comment3.target=Ninja(boolean,\ int,\ int,\ int,\ int,\ int)
+comment4.params=
+comment4.target=void\ march()
+comment5.params=damage
+comment5.target=void\ takeDamage(int)
+comment6.params=
+comment6.target=void\ act()
+comment7.params=
+comment7.target=void\ attackEnemy()
+numComments=8

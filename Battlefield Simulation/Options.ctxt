@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Options
+comment0.text=\r\n\ A\ world\ where\ the\ user\ can\ change\ the\ simulation\r\n\ by\ manipulating\ some\ variables.\r\n\ \r\n\ @author\ Owen\ Zhu\r\n\ @version\ May\ 13,\ 2020\r\n
+comment1.params=
+comment1.target=Options()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

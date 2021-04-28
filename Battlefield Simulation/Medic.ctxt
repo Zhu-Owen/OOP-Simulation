@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Medic
+comment0.text=\r\n\ Medic\ is\ a\ slightly\ downgraded\ infantry\ with\ the\ ability\ to\ shoot\ healing\ bullets\ at\r\n\ injured\ allies.\r\n\ \r\n\ @author\ Howard\ Yang\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=isRed
+comment1.target=Medic(boolean)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ target()
+comment3.text=\r\n\ targets\ allies\ for\ healing\ before\ acting\ like\ a\ regular\ troop\r\n
+comment4.params=
+comment4.target=void\ attackEnemy()
+comment4.text=\r\n\ creates\ a\ bullet\ that\ travels\ in\ the\ direction\ the\ troop\ is\ facing\ and\ hurts\ enemies\r\n\ that\ it\ comes\ in\ contact\ with\r\n
+comment5.params=
+comment5.target=void\ healAlly()
+comment5.text=\r\n\ creates\ a\ healing\ bullet\ that\ travels\ in\ the\ direction\ the\ troop\ is\ facing\r\n
+numComments=6

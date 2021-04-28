@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Tank
+comment0.text=\r\n\ Tank\ is\ a\ troop\ that\ has\ high\ health,\ low\ speed,\ and\ medium\ damage\r\n\ \r\n\ @author\ Roy\ Sun\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=isRed
+comment1.target=Tank(boolean)
+comment2.params=isRed\ hp\ maxHp\ speed\ damage\ sight
+comment2.target=Tank(boolean,\ int,\ int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ attackEnemy()
+numComments=5

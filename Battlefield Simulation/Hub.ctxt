@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Hub
+comment0.text=\r\n\ Hubs\ are\ Buildings\ (Greenfoot\ Actors)\ that\ serve\ as\ the\ "command\ centre"\r\n\ for\ a\ team.\ If\ the\ Hub\ is\ destroyed\ (if\ its\ health\ reaches\ 0),\ the\ team\r\n\ who\ owns\ that\ Hub\ will\ lose\ the\ battle.\ Hubs\ construct\ buildings\ if\ it\r\n\ detects\ there\ is\ an\ open\ spot\ for\ a\ building\ to\ be\ built\ and\ it\ has\ enough\r\n\ charge\ to\ do\ so.\r\n\ \r\n\ @author\ Daniel\ Wei\ \r\n\ @version\ April\ 27,\ 2020\r\n
+comment1.params=isRed\ width\ height\ maxHP\ maxCharge\ delay
+comment1.target=Hub(boolean,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Create\ a\ Hub\ building\ of\ the\ specified\ team\ (red\ or\ blue),\ width,\ height,\ maximum\ HP,\ maximum\ charge,\ and\ charge\ accumulation\ delay.\r\n\ \r\n\ @param\ isRed\ True\ if\ this\ Hub\ belongs\ to\ the\ red\ team,\ false\ if\ it\ belongs\ to\ the\ blue\ team.\r\n\ @param\ width\ Width\ of\ this\ Hub.\r\n\ @param\ height\ Height\ of\ this\ Hub.\r\n\ @param\ maxHP\ Maximum\ HP\ of\ this\ Hub.\r\n\ @param\ maxCharge\ Total\ charge\ this\ Hub\ must\ accumulate\ to\ use\ its\ ability.\r\n\ @param\ delay\ Rate\ at\ which\ this\ Hub\ accumulates\ charge.\ Lower\ delay\ results\ in\ faster\ charge\ accumulation.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=boolean\ isDestroyed()
+comment3.text=\r\n\ Check\ if\ the\ Hub\ is\ destroyed\r\n\ \r\n\ @return\ boolean\ True\ if\ Hub\ HP\ is\ less\ than\ or\ equal\ to\ 0.\r\n
+comment4.params=
+comment4.target=void\ spawnBuilding()
+comment4.text=\r\n\ Spawn\ a\ building\ in\ an\ empty\ preset\ spot.\r\n
+comment5.params=
+comment5.target=void\ updateBuildings()
+comment5.text=\r\n\ Sees\ which\ buildings\ are\ still\ standing\r\n
+comment6.params=
+comment6.target=boolean\ allBuildingsActive()
+comment6.text=\r\n\ Determine\ whether\ or\ not\ all\ buildings\ are\ currently\ still\ standing\ on\ the\ Battlefield.\r\n
+comment7.params=
+comment7.target=int\ getWidth()
+comment7.text=\r\n\ Utility\ method\ to\ get\ world\ width\r\n
+comment8.params=
+comment8.target=int\ getHeight()
+comment8.text=\r\n\ Utility\ method\ to\ get\ world\ height\r\n
+numComments=9

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Infantry
+comment0.text=\r\n\ Infantries\ are\ standard\ troops\ that\ march\ down\ the\r\n\ battlefield\ and\ shoot\ the\ nearest\ enemy\ troop/building\r\n\ \r\n\ @author\ Howard\ Yang,\ Roy\ Sun\r\n\ @version\ April\ 2020\r\n
+comment1.params=isRed
+comment1.target=Infantry(boolean)
+comment1.text=\r\n\ Create\ an\ Infantry\ of\ the\ specified\ team.\r\n\ \r\n\ @param\ isRed\ True\ if\ red\ team,\ false\ if\ blue\ team.\r\n
+comment2.params=isRed\ hp\ speed\ damage\ sight
+comment2.target=Infantry(boolean,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ Create\ an\ Infantry\ of\ the\ specified\ team,\ with\ specified\ hp,\ speed,\ damage,\ and\ sight\ range.\r\n\ \r\n\ @param\ isRed\ True\ if\ red\ team,\ false\ if\ blue\ team.\r\n\ @param\ hp\ HP\ the\ infantry\ starts\ with.\r\n\ @param\ speed\ Speed\ the\ infantry\ marches\ downt\ the\ battlefield.\r\n\ @param\ damage\ Damage\ the\ infantry's\ bullets\ deal.\r\n\ @param\ sight\ Sight\ range\ of\ the\ infantry.\r\n
+comment3.params=isRed\ hp\ maxHp\ speed\ damage\ sight
+comment3.target=Infantry(boolean,\ int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ Create\ an\ Infantry\ of\ the\ specified\ team,\ with\ specified\ current\ hp,\ max\ hp,\ speed,\ damage,\ and\ sight\ range.\r\n\ \r\n\ @param\ isRed\ True\ if\ red\ team,\ false\ if\ blue\ team.\r\n\ @param\ hp\ HP\ the\ infantry\ starts\ with.\r\n\ @param\ maxHp\ MaxHP\ of\ the\ infantry.\r\n\ @param\ speed\ Speed\ the\ infantry\ marches\ downt\ the\ battlefield.\r\n\ @param\ damage\ Damage\ the\ infantry's\ bullets\ deal.\r\n\ @param\ sight\ Sight\ range\ of\ the\ infantry.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ attackEnemy()
+comment5.text=\r\n\ Creates\ a\ bullet\ that\ travels\ in\ the\ direction\ the\ troop\ is\ facing\r\n
+numComments=6
